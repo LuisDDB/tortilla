@@ -15,7 +15,10 @@ Separa una cadena de texto en donde encuentre el caracter guion medio.
 @param oracion Es la oración que será separada en fracciones.
 @return  Array de String en cuyo cada componente será una fracción de la cadena otorgada.
 */
+
     public String[] separar(String oracion) {
+        //Mama soy famoso
+
         String[] resultado = oracion.split("-");
         return resultado;
     }
